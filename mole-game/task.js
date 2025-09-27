@@ -23,7 +23,7 @@ for (let i = 1; i <= 9; i++) {
     const hole = document.getElementById(`hole${i}`);
     
     hole.addEventListener('click', function() {
-        if (this.classList === 'hole has-mole') {
+        if (this.classList.contains('hole_has-mole')) {
             // Попадание по кроту
             dead.textContent = Number(dead.textContent) + 1;
         } else {

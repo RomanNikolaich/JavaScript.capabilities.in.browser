@@ -19,8 +19,6 @@ function formatTime(seconds) {
 
 clock.textContent = formatTime(3665)
 
-const clock = document.getElementById("clock");
-
 let totalSeconds = 2 * 3600 + 30 * 60 + 15;
 
 const interval2 = setInterval(() => {
